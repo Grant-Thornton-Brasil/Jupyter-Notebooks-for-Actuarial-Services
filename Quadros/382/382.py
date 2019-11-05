@@ -153,5 +153,5 @@ for n, line in tqdm(get_lines()):
 
 
 df_criticas["Linhas Analizadas"] = lines
-df_criticas
+df_criticas.to_excel("382.xlsx", sheet_name="Críticas 382")
 
